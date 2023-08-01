@@ -6,12 +6,7 @@
   padding: 0;
 }
 
-
-
-
-
 body {
-  
   font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -22,6 +17,7 @@ body {
 p {
   font-size: 1.6rem;
 }
+
 h1 {
   font-size: 6rem;
 }
@@ -33,6 +29,7 @@ h1 {
   background-color: rgba(0,0,0,0.4);
   color: #fff;
 }
+
 .app:before {
   content: '';
   background: url('./assets/sunset.jpg') no-repeat center center/cover;
@@ -44,6 +41,23 @@ h1 {
   z-index: -1;
 }
 
+.app .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #f8f8f8;
+}
 
 .container {
   max-width: 700px;
@@ -74,15 +88,12 @@ h1 {
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  margin: 1rem auto;
+  margin: 6rem auto;
   padding: 1rem;
   border-radius: 12px;
   background-color: rgba(255,255,255, 0.2);
 }
+
 .bold {
   font-weight: 700;
 }
-
-
-
-
