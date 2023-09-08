@@ -1,4 +1,3 @@
-
 ![Screenshot 2023-08-01 131612](https://github.com/LSanjyan/weather-app-react/assets/133781980/713fce2c-4154-473e-82de-8c7917fade8c)
 
 Weather app created with React JS.
@@ -8,3 +7,5 @@ Funcionality: searching weather by city name in the searching bar. Temprature is
 Used Api link and axios.
 Special function: detects
 spelling errors and brings correct name of city.
+
+This is deployed app with Render.com
