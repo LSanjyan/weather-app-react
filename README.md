@@ -8,4 +8,5 @@ Used Api link and axios.
 Special function: detects
 spelling errors and brings correct name of city.
 
-This is deployed app with Render.com
+This is deployed app with Render.com 
+Here is the link: https://weather-app-react-ipze.onrender.com/
